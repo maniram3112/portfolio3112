@@ -1,4 +1,3 @@
-import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import habitBuddy from '../../Assets/Projects/habit-buddy.png';
 import slotify from '../../Assets/Projects/slotify.png';
@@ -74,7 +73,7 @@ function Projects() {
                 />
             </Col> */}
 
-            <Col md={4} className="project-card">
+            {/* <Col md={4} className="project-card">
                 <ProjectCard
                 // imgPath={emotion}
                 // isBlog={false}
@@ -84,7 +83,7 @@ function Projects() {
                 // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
                 // // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
                 />
-            </Col>
+            </Col> */}
             </Row>
         </Container>
         </Container>
